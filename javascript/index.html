@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fibonacci - JavaScript</title>
+        <meta charset="UTF-8">
+
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1 class="align-center">Fibonacci</h1>
+
+        <form id="form" method="get">
+            <h3>Sequência de Fibonacci</h3>
+
+            <label>
+                <label for="numero">Digite a quantidade de números Fibonacci desejada: </label>
+                <br />
+                <input type="text" id="numero" name="numero" value="" onkeypress="return SomenteNumero(event)" />
+            </label>
+
+            <label>
+                <input type="button" value="Exibir" onclick="return calcular();" />
+            </label>
+        </form>
+    </body>
+</html>
