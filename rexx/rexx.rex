@@ -1,5 +1,5 @@
 /*
- * Sequencia de fibonacci em rexx
+ * Fibonacci sequence in Rexx
  *
  * https://en.wikipedia.org/wiki/Rexx
  *

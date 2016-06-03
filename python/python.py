@@ -1,18 +1,15 @@
 from sys import argv
 
+def fibo(count):
+	a, b = 1, 0
 
-def fib(count):
-	fst, snd = 1, 0
-	print(snd)
-	if count >= 1:
-		if count == 1:
-			print(fst)
-		else:
-			for i in range(count):
-				fst, snd = snd, fst
-				fst += snd
-				print(fst)
+	print (b)
+	print (a)
+
+	for i in range(count):
+		a += b
+		b = a - b
+		print (a)
 
 if __name__ == "__main__":
-	count = int(argv[1])
-	fib(count)
+	fibo(int(argv[1]))

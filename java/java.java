@@ -1,11 +1,15 @@
+import java.util.Scanner;
+
 public class java {
 	public static void main (String[] args) {
-		int a = 1
-		int b = 0;
+		Scanner input = new Scanner(System.in);
+		System.out.print("N: ");
+		int n = input.nextInt();
+		int a = 1, b = 0;
 
 		System.out.println(b + "\n" + a);
 
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i <= n; i++) {
 			a += b;
 			b = a - b;
 			System.out.println(a);

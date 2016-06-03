@@ -1,6 +1,0 @@
-Ordem para usar o script em Bash
-
-Entre com o terminal no diretório dele
-chmod +x fibonacci.sh # dá permissao de execucao
-./fibonacci.sh NUMERO # ja executa para o numero de entrada
-./fibonacci.sh # perguntará o numero de entrada na execução
